@@ -1,0 +1,10 @@
+:: host un pw port db path
+:: backup moe main website hosting acct dbs
+web.host.com webuser1 key1 3306 database1 C:\backup_location-1
+:: backup all bbdevelo... dbs
+web.other-host.com webuser2 key2 3306 database2 C:\backup_location-1
+localhost webuser3 key3 3306 database3 C:\backup_location-1
+web.host.com webuser1 key1 3306 database2 C:\backup_location-2
+web.host.com webuser1 key1 3306 database3 C:\database_backups
+web.host.com webuser1 key1 3306 database4 C:\database_backups
+web.host.com webuser1 key1 3306 database5 C:\database_backups
